@@ -1,11 +1,11 @@
-console.log(process.env);
+// console.log(process.env);
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-    appId: process.env.REACT_APP_FIREBASE_APP_ID,
-};
-
+    apiKey: "AIzaSyBd9moZO17NBvXeAFpv7aCWgoe_OOeOo7w",
+    authDomain: "geninus-car.firebaseapp.com",
+    projectId: "geninus-car",
+    storageBucket: "geninus-car.appspot.com",
+    messagingSenderId: "586101142151",
+    appId: "1:586101142151:web:072ec5040f4144ab133e22"
+  };
+  
 export default firebaseConfig;
